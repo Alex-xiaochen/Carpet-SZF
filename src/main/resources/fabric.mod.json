@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "carpet-szf",
+	"version": "1.2",
+	"name": "Carpet-SZF",
+	"description": "一个给SZF服务器写的carpet拓展",
+	"authors": [
+		"Grey_Cat_awa"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/carpet-szf/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.szf.CarpetSZF"
+		]
+	},
+	"mixins": [
+		"carpet-szf.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

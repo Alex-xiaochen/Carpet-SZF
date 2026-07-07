@@ -1,0 +1,22 @@
+{
+      "carpet.category.carpet-SZF": "carpet-SZF",
+      "carpet.rule.playerDropsHead.name": "玩家被闪电苦力怕炸死掉落头颅",
+      "carpet.rule.playerDropsHead.desc": "玩家被闪电苦力怕炸死掉落头颅",
+      "carpet.rule.endPortalInstantBreak.name": "末地传送门可以被破坏",
+      "carpet.rule.endPortalInstantBreak.desc": "末地传送门可以被破坏",
+      "carpet.rule.endPortalFrameHardness.name": "自定义末地传送门框架硬度",
+      "carpet.rule.endPortalFrameHardness.desc": "自定义末地传送门框架硬度",
+      "carpet.rule.blockPlayerDuZhaoYang.name": "禁止DuZhaoYang加入游戏",
+      "carpet.rule.blockPlayerDuZhaoYang.desc": "禁止DuZhaoYang加入游戏",
+      "carpet.rule.decoratedPotCanExtract.name": "空手右键可取出陶罐的内容物",
+      "carpet.rule.decoratedPotCanExtract.desc": "空手右键可取出陶罐的内容物",
+      "carpet.rule.customFireworkCooldown.name": "自定义烟花火箭使用冷却",
+      "carpet.rule.customFireworkCooldown.desc": "自定义烟花火箭使用冷却（以游戏刻为单位，0为默认）",
+      "carpet.rule.hopperCreativeToggle.name": "创造模式下使用打火石右键漏斗可切换启用/禁用",
+      "carpet.rule.hopperCreativeToggle.desc": "创造模式下使用打火石右键漏斗可切换启用/禁用",
+      "carpet.rule.totemInInventory.name": "背包里的不死图腾可以触发",
+      "carpet.rule.totemInInventory.desc": "背包里的不死图腾可以触发",
+      "carpet.rule.spectatorCanTeleport.name": "旁观者模式可以使用传送指令",
+      "carpet.rule.spectatorCanTeleport.desc": "旁观者模式可以使用传送指令"
+
+}
