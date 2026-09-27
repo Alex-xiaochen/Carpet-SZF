@@ -20,4 +20,6 @@ public class SZFSettings {
     public static boolean hopperCreativeToggle = false;
     @Rule(categories = SZF)
     public static boolean totemInInventory = false;
+    @Rule(categories = SZF)
+    public static boolean bonemealAmethystBud = false;
 }

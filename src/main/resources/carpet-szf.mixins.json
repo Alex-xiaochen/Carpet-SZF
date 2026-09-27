@@ -10,7 +10,8 @@
     "DecoratedPotExtractMixin",
     "customFireworkCooldownMixin",
     "HopperCreativeToggleMixin",
-    "InventoryTotemMixin"
+    "InventoryTotemMixin",
+    "BonemealAmethystMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -16,6 +16,8 @@
       "carpet.rule.hopperCreativeToggle.desc": "创造模式下使用打火石右键漏斗可切换启用/禁用",
       "carpet.rule.totemInInventory.name": "背包里的不死图腾可以触发",
       "carpet.rule.totemInInventory.desc": "背包里的不死图腾可以触发",
+      "carpet.rule.bonemealAmethystBud.name": "骨粉可以催熟紫水晶芽",
+      "carpet.rule.bonemealAmethystBud.desc": "对紫水晶母岩使用骨粉时，有10%概率使该方向的紫水晶芽成长一个阶段；若该方向没有紫水晶芽则生成一个小紫水晶芽",
       "carpet.rule.spectatorCanTeleport.name": "旁观者模式可以使用传送指令",
       "carpet.rule.spectatorCanTeleport.desc": "旁观者模式可以使用传送指令"
 
