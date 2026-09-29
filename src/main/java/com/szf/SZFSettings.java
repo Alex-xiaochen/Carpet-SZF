@@ -22,4 +22,6 @@ public class SZFSettings {
     public static boolean totemInInventory = false;
     @Rule(categories = SZF)
     public static boolean bonemealAmethystBud = false;
+    @Rule(categories = SZF)
+    public static int worldEaterHelperStuckSeconds = 30;
 }

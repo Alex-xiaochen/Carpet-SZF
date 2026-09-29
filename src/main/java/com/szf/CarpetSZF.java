@@ -2,9 +2,13 @@ package com.szf;
 
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
+import com.mojang.brigadier.CommandDispatcher;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.commands.CommandBuildContext;
+import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.resources.Identifier;
+import net.minecraft.server.MinecraftServer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,6 +40,16 @@ public class CarpetSZF implements CarpetExtension, ModInitializer {
 	public void onGameStarted() {
 		// Register SguSettings class with Carpet
 		CarpetServer.settingsManager.parseSettingsClass(SZFSettings.class);
+	}
+
+	@Override
+	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher, CommandBuildContext commandBuildContext) {
+		WorldEaterHelper.register(dispatcher);
+	}
+
+	@Override
+	public void onTick(MinecraftServer server) {
+		WorldEaterHelper.onServerTick(server);
 	}
 	@Override
 	public Map<String, String> canHasTranslations(String lang) {

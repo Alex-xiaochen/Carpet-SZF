@@ -32,6 +32,14 @@ bin/
 
 run/
 
+# stonecutter
+# The `build/` rule above already matches at any depth; these are for clarity.
+
+versions/*/build/
+versions/*/run/
+versions/*/.gradle/
+.stonecutter/
+
 # java
 
 hs_err_*.log

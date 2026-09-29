@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "carpet-szf",
-	"version": "1.2",
+	"version": "${version}",
 	"name": "Carpet-SZF",
 	"description": "一个给SZF服务器写的carpet拓展",
 	"authors": [
@@ -23,9 +23,9 @@
 		"carpet-szf.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.1.2",
-		"java": ">=25",
+		"fabricloader": ">=${loader}",
+		"minecraft": "~${minecraft}",
+		"java": ">=${java}",
 		"fabric-api": "*"
 	}
 }
